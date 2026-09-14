@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRAD: Camera-Radar Alignment Dataset</title>
+<meta name="description" content="599 manually verified roll/pitch/height reference labels for camera-radar alignment on autonomous surface vessels, built on the Pohang Canal Dataset.">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #fcfcfb;
+    --page: #f9f9f7;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --line: #e1e0d9;
+    --accent: #2a78d6;
+    --accent-2: #eb6834;
+    --card: #ffffff;
+    --code-bg: #f3f2ee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #1a1a19;
+      --page: #0d0d0d;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --line: #2c2c2a;
+      --accent: #3987e5;
+      --accent-2: #d95926;
+      --card: #202020;
+      --code-bg: #161615;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header.hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: clamp(1.5rem, 4vw, 2.1rem);
+    margin: 0 0 10px;
+    letter-spacing: -0.01em;
+  }
+  .subtitle {
+    color: var(--ink-2);
+    font-size: 1.02rem;
+    max-width: 640px;
+    margin: 0 auto 18px;
+  }
+  .authors {
+    color: var(--ink-2);
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+  }
+  .affil {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-bottom: 22px;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.9rem;
+    background: var(--card);
+  }
+  .btn.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  section { margin: 44px 0; }
+  h2 {
+    font-size: 1.2rem;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+  p { color: var(--ink-2); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 24px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 7px 10px;
+    border-bottom: 1px solid var(--line);
+  }
+  th { color: var(--ink); font-weight: 600; }
+  td { color: var(--ink-2); }
+  tr:last-child td, tr:last-child th { border-bottom: none; font-weight: 600; color: var(--ink); }
+  .figures {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .figures figure {
+    margin: 0;
+    flex: 1 1 320px;
+    max-width: 400px;
+  }
+  .figures img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    display: block;
+  }
+  figcaption {
+    color: var(--muted);
+    font-size: 0.82rem;
+    margin-top: 8px;
+    text-align: center;
+  }
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 16px;
+    overflow-x: auto;
+    font-size: 0.82rem;
+    color: var(--ink);
+  }
+  code {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+  }
+  ul { color: var(--ink-2); }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.82rem;
+    margin-top: 60px;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>CRAD: Camera&ndash;Radar Alignment Dataset<br>for Maritime Sensor Fusion</h1>
+    <p class="subtitle">
+      599 manually verified roll / pitch / height reference labels for
+      frame-level camera&ndash;radar alignment on autonomous surface vessels,
+      across daytime RGB and nighttime IR sequences.
+    </p>
+    <p class="authors">Sol Han &nbsp;&middot;&nbsp; Jinwhan Kim</p>
+    <p class="affil">Mechanical Engineering, KAIST &nbsp;&mdash;&nbsp; OCEANS 2026</p>
+    <div class="links">
+      <a class="btn primary" href="https://github.com/Sol-Han/CRAD">GitHub Repository</a>
+      <a class="btn" href="https://github.com/Sol-Han/CRAD/tree/main/labels">Download Labels</a>
+      <a class="btn" href="#citation">Cite</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Overview</h2>
+    <p>
+      Camera and marine radar are complementary sensors for autonomous surface
+      vessels, but effective fusion requires accurate frame-level geometric
+      alignment &mdash; a challenge in maritime environments where the
+      platform is continuously affected by wave-induced roll and pitch
+      motion. Attitude and heading reference system (AHRS) and SLAM-based
+      trajectory estimates provide useful priors, but may not yield the
+      roll/pitch that maximizes camera&ndash;radar projection consistency.
+    </p>
+    <p>
+      CRAD provides human-verified roll, pitch, and height reference labels
+      for visually inspectable camera&ndash;radar frames from the
+      <a href="https://sites.google.com/view/pohang-canal-dataset">Pohang
+      Canal Dataset</a>, generated with a custom projection-based annotation
+      interface where an annotator adjusts roll/pitch/height while checking
+      cross-modal consistency between image-domain cues and radar-domain
+      structures.
+    </p>
+  </section>
+
+  <section>
+    <h2>CROCS: a follow-on paper</h2>
+    <p>
+      <strong>CROCS</strong> (Camera&ndash;Radar Online Alignment via
+      Conic-Section-Constrained Scalar Field Correlation), published in
+      <em>IEEE Robotics and Automation Letters</em>, is a follow-on algorithm
+      paper from the same authors that evaluates against these labels. If you
+      use it, please cite it &mdash; see <a href="#citation">Citation</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2>Dataset summary</h2>
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>Sequence</th><th>Type</th><th>Time range [s]</th><th># Labels</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>pohang00</td><td>Day / RGB</td><td>580&ndash;2170</td><td>116</td></tr>
+          <tr><td>pohang01</td><td>Night / IR</td><td>690&ndash;2640</td><td>83</td></tr>
+          <tr><td>pohang02</td><td>Day / RGB</td><td>840&ndash;2240</td><td>110</td></tr>
+          <tr><td>pohang03</td><td>Day / RGB</td><td>800&ndash;2420</td><td>140</td></tr>
+          <tr><td>pohang04</td><td>Day / RGB</td><td>650&ndash;2200</td><td>108</td></tr>
+          <tr><td>pohang05</td><td>Night / IR</td><td>470&ndash;2170</td><td>42</td></tr>
+          <tr><td>Total</td><td>&ndash;</td><td>&ndash;</td><td>599</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Label characteristics</h2>
+    <div class="figures">
+      <figure>
+        <img src="assets/label_distribution.png" alt="Roll/pitch label distribution, Day/RGB vs Night/IR">
+        <figcaption>Joint roll/pitch distribution, split by Day/RGB and Night/IR sequences.</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/pitch_time_progress.png" alt="Pitch vs normalized sequence progress">
+        <figcaption>Pitch shifts sharply partway through each sequence &mdash; consistent with a transition from a calm inner canal to more wave-exposed open water.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Annotation tool</h2>
+    <p>
+      <code>annotator/annotate.py</code> is the actual interface used to
+      produce every label in this dataset, included so the labeling
+      methodology is fully reproducible &mdash; not just described in prose.
+    </p>
+    <div class="figures">
+      <figure style="max-width: 720px;">
+        <img src="assets/annotation_example.png" alt="Annotation tool screenshot: pohang03 frame 008400">
+        <figcaption><code>pohang03</code>, frame <code>008400</code> (roll=-0.6&deg;, pitch=-3.3&deg;, height=3.2&nbsp;m, already saved). Left: camera image with the SAM3-derived water boundary. Right: the same boundary projected onto the raw radar image, aligning with the radar-observed structure.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Format &amp; usage</h2>
+    <p>Each sequence's labels are stored as <code>labels/pohang0#/gt_rph.json</code>:</p>
+    <pre><code>{
+  "5800": {"roll_deg": 0.3,  "pitch_deg": 2.6, "height_m": 3.5},
+  "5900": {"roll_deg": -0.1, "pitch_deg": 2.6, "height_m": 3.3}
+}</code></pre>
+    <p>...plus a consolidated <code>labels/gt_labels.csv</code> across all six sequences. A minimal loader and plotting example (no dependency beyond pandas/matplotlib) are included in <code>examples/</code>:</p>
+    <pre><code>python examples/load_labels.py --seq pohang03
+python examples/plot_distribution.py</code></pre>
+    <p>The manual annotation tool used to produce every label (<code>annotator/</code>) is also included, with no dependency on the authors' private CROCS codebase. This repository does not ship the underlying camera images or radar scans &mdash; those belong to the Pohang Canal Dataset and must be obtained separately. See the <a href="https://github.com/Sol-Han/CRAD#readme">full README</a> for the annotation protocol, sign-convention notes, and license details.</p>
+  </section>
+
+  <section id="citation">
+    <h2>Citation</h2>
+    <pre><code>@inproceedings{han2026crad,
+  title     = {{CRAD}: Camera-Radar Alignment Dataset for Maritime Sensor Fusion},
+  author    = {Han, Sol and Kim, Jinwhan},
+  booktitle = {OCEANS 2026},
+  year      = {2026}
+}</code></pre>
+    <p>CROCS is a follow-on algorithm paper from the same authors. If you use it, please cite:</p>
+    <pre><code>@article{han2026crocs,
+  title   = {{CROCS}: Camera-Radar Online Alignment via Conic-Section-Constrained Scalar Field Correlation},
+  author  = {Han, Sol and Kim, Jinwhan},
+  journal = {IEEE Robotics and Automation Letters},
+  year    = {2026},
+  doi     = {10.1109/LRA.2026.3730370}
+}</code></pre>
+    <p><a href="https://ieeexplore.ieee.org/abstract/document/11676096">IEEE Xplore</a> &middot; DOI: <a href="https://doi.org/10.1109/LRA.2026.3730370">10.1109/LRA.2026.3730370</a></p>
+    <p>Please also cite the <a href="https://sites.google.com/view/pohang-canal-dataset">Pohang Canal Dataset</a> if you use the underlying camera/radar frames.</p>
+  </section>
+
+  <footer>
+    Contact: <a href="mailto:dream4future@kaist.ac.kr">dream4future@kaist.ac.kr</a>
+  </footer>
+
+</div>
+</body>
+</html>

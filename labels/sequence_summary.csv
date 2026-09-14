@@ -1,0 +1,7 @@
+sequence,type,time_range_s,n_labels
+pohang00,Day/RGB,580-2170,116
+pohang01,Night/IR,690-2640,83
+pohang02,Day/RGB,840-2240,110
+pohang03,Day/RGB,800-2420,140
+pohang04,Day/RGB,650-2200,108
+pohang05,Night/IR,470-2170,42

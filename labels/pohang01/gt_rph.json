@@ -1,0 +1,417 @@
+{
+  "6900": {
+    "roll_deg": -0.0,
+    "pitch_deg": 3.1,
+    "height_m": 3.15
+  },
+  "7000": {
+    "roll_deg": -0.0,
+    "pitch_deg": 3.2,
+    "height_m": 3.15
+  },
+  "7100": {
+    "roll_deg": -0.0,
+    "pitch_deg": 3.2,
+    "height_m": 3.15
+  },
+  "7200": {
+    "roll_deg": -0.0,
+    "pitch_deg": 3.2,
+    "height_m": 3.05
+  },
+  "7300": {
+    "roll_deg": -0.3,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "7500": {
+    "roll_deg": -0.5,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "7600": {
+    "roll_deg": -0.5,
+    "pitch_deg": 3.0,
+    "height_m": 3.2
+  },
+  "8200": {
+    "roll_deg": 0.3,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "8400": {
+    "roll_deg": 0.4,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "8600": {
+    "roll_deg": 0.4,
+    "pitch_deg": 3.1,
+    "height_m": 3.25
+  },
+  "8800": {
+    "roll_deg": -0.2,
+    "pitch_deg": 2.9,
+    "height_m": 3.25
+  },
+  "8900": {
+    "roll_deg": -0.2,
+    "pitch_deg": 2.9,
+    "height_m": 3.0
+  },
+  "9000": {
+    "roll_deg": -0.3,
+    "pitch_deg": 2.9,
+    "height_m": 3.0
+  },
+  "9200": {
+    "roll_deg": -0.3,
+    "pitch_deg": 2.9,
+    "height_m": 3.0
+  },
+  "9300": {
+    "roll_deg": -0.3,
+    "pitch_deg": 2.9,
+    "height_m": 3.0
+  },
+  "9500": {
+    "roll_deg": -0.6,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "9600": {
+    "roll_deg": -0.6,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "9700": {
+    "roll_deg": -0.6,
+    "pitch_deg": 2.9,
+    "height_m": 3.0
+  },
+  "9800": {
+    "roll_deg": -0.8,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "9900": {
+    "roll_deg": -0.8,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "10200": {
+    "roll_deg": -1.2,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "10500": {
+    "roll_deg": -1.6,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "10600": {
+    "roll_deg": -1.7,
+    "pitch_deg": 3.0,
+    "height_m": 3.5
+  },
+  "10900": {
+    "roll_deg": -1.9,
+    "pitch_deg": 2.9,
+    "height_m": 3.0
+  },
+  "11100": {
+    "roll_deg": -1.3,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "11300": {
+    "roll_deg": -1.6,
+    "pitch_deg": 3.0,
+    "height_m": 3.25
+  },
+  "11400": {
+    "roll_deg": -1.6,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "11500": {
+    "roll_deg": -1.4,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "11600": {
+    "roll_deg": -1.2,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "11700": {
+    "roll_deg": -1.2,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "11900": {
+    "roll_deg": -1.0,
+    "pitch_deg": 3.1,
+    "height_m": 2.95
+  },
+  "12000": {
+    "roll_deg": -1.0,
+    "pitch_deg": 3.0,
+    "height_m": 3.2
+  },
+  "12100": {
+    "roll_deg": -1.0,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "12200": {
+    "roll_deg": -1.0,
+    "pitch_deg": 3.0,
+    "height_m": 3.1
+  },
+  "12500": {
+    "roll_deg": -1.2,
+    "pitch_deg": 3.0,
+    "height_m": 3.45
+  },
+  "12600": {
+    "roll_deg": -0.7,
+    "pitch_deg": 3.0,
+    "height_m": 3.15
+  },
+  "12800": {
+    "roll_deg": -1.1,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "13300": {
+    "roll_deg": -0.7,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "13400": {
+    "roll_deg": -0.5,
+    "pitch_deg": 3.0,
+    "height_m": 3.35
+  },
+  "13500": {
+    "roll_deg": -0.3,
+    "pitch_deg": 3.0,
+    "height_m": 2.7
+  },
+  "13600": {
+    "roll_deg": -0.7,
+    "pitch_deg": 3.0,
+    "height_m": 3.25
+  },
+  "13800": {
+    "roll_deg": -0.9,
+    "pitch_deg": 3.1,
+    "height_m": 2.9
+  },
+  "13900": {
+    "roll_deg": -0.7,
+    "pitch_deg": 3.1,
+    "height_m": 3.05
+  },
+  "14000": {
+    "roll_deg": -1.0,
+    "pitch_deg": 3.0,
+    "height_m": 3.1
+  },
+  "14200": {
+    "roll_deg": -1.1,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "14300": {
+    "roll_deg": -0.9,
+    "pitch_deg": 3.2,
+    "height_m": 3.0
+  },
+  "14400": {
+    "roll_deg": -0.7,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "14500": {
+    "roll_deg": -0.4,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "14700": {
+    "roll_deg": -0.4,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "15100": {
+    "roll_deg": -0.8,
+    "pitch_deg": 3.2,
+    "height_m": 3.0
+  },
+  "15200": {
+    "roll_deg": -0.7,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "15300": {
+    "roll_deg": -0.4,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "15400": {
+    "roll_deg": -0.8,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "15600": {
+    "roll_deg": -0.7,
+    "pitch_deg": 3.1,
+    "height_m": 3.1
+  },
+  "15700": {
+    "roll_deg": -0.6,
+    "pitch_deg": 3.0,
+    "height_m": 3.3
+  },
+  "15800": {
+    "roll_deg": -0.3,
+    "pitch_deg": 2.9,
+    "height_m": 3.45
+  },
+  "16700": {
+    "roll_deg": -0.1,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "16800": {
+    "roll_deg": -0.2,
+    "pitch_deg": 2.9,
+    "height_m": 3.0
+  },
+  "17000": {
+    "roll_deg": -0.4,
+    "pitch_deg": 3.3,
+    "height_m": 3.0
+  },
+  "17100": {
+    "roll_deg": -0.4,
+    "pitch_deg": 3.1,
+    "height_m": 3.0
+  },
+  "17200": {
+    "roll_deg": -0.4,
+    "pitch_deg": 3.3,
+    "height_m": 3.0
+  },
+  "17300": {
+    "roll_deg": 0.3,
+    "pitch_deg": 3.0,
+    "height_m": 3.0
+  },
+  "21100": {
+    "roll_deg": -3.4,
+    "pitch_deg": 3.8,
+    "height_m": 3.0
+  },
+  "21200": {
+    "roll_deg": 0.6,
+    "pitch_deg": 4.7,
+    "height_m": 3.0
+  },
+  "21300": {
+    "roll_deg": -1.8,
+    "pitch_deg": 5.0,
+    "height_m": 3.0
+  },
+  "21400": {
+    "roll_deg": -4.2,
+    "pitch_deg": 3.8,
+    "height_m": 3.0
+  },
+  "21500": {
+    "roll_deg": 4.1,
+    "pitch_deg": 6.0,
+    "height_m": 3.0
+  },
+  "22000": {
+    "roll_deg": -0.7,
+    "pitch_deg": 5.1,
+    "height_m": 3.0
+  },
+  "22100": {
+    "roll_deg": -2.3,
+    "pitch_deg": 4.6,
+    "height_m": 3.0
+  },
+  "22200": {
+    "roll_deg": -0.6,
+    "pitch_deg": 4.8,
+    "height_m": 3.0
+  },
+  "22300": {
+    "roll_deg": -1.2,
+    "pitch_deg": 4.9,
+    "height_m": 3.2
+  },
+  "22500": {
+    "roll_deg": -0.2,
+    "pitch_deg": 4.7,
+    "height_m": 3.0
+  },
+  "22600": {
+    "roll_deg": 0.3,
+    "pitch_deg": 5.6,
+    "height_m": 3.35
+  },
+  "22800": {
+    "roll_deg": 0.1,
+    "pitch_deg": 5.4,
+    "height_m": 3.5
+  },
+  "22900": {
+    "roll_deg": -1.4,
+    "pitch_deg": 6.3,
+    "height_m": 3.0
+  },
+  "23000": {
+    "roll_deg": -1.1,
+    "pitch_deg": 5.8,
+    "height_m": 3.0
+  },
+  "23100": {
+    "roll_deg": -0.5,
+    "pitch_deg": 6.2,
+    "height_m": 3.3
+  },
+  "23600": {
+    "roll_deg": -0.5,
+    "pitch_deg": 5.9,
+    "height_m": 3.0
+  },
+  "23700": {
+    "roll_deg": -0.8,
+    "pitch_deg": 5.4,
+    "height_m": 3.0
+  },
+  "23800": {
+    "roll_deg": -0.8,
+    "pitch_deg": 5.9,
+    "height_m": 3.0
+  },
+  "23900": {
+    "roll_deg": -0.8,
+    "pitch_deg": 6.3,
+    "height_m": 3.0
+  },
+  "24000": {
+    "roll_deg": -0.9,
+    "pitch_deg": 6.3,
+    "height_m": 3.0
+  },
+  "24100": {
+    "roll_deg": -0.6,
+    "pitch_deg": 6.5,
+    "height_m": 3.0
+  }
+}
